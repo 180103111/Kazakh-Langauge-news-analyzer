@@ -810,6 +810,7 @@ Banner Style
 */
 
 .main-banner {
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -832,7 +833,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../assets/images/slider-right-dec.jpg);
+  background-image: url(/static/images/slider-right-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -895,11 +896,13 @@ About Style
 
 .about-left-image img {
   margin-right: 45px;
+
 }
 
 .about-right-content p {
   margin-top: 30px;
   margin-bottom: 45px;
+
 }
 
 
@@ -939,7 +942,7 @@ contact
 
 
 form#contact:before {
-  background-image: url(../assets/images/contact-top-right-v3.png);
+  background-image: url(/static/images/contact-top-right-v3.png);
   position: absolute;
   right: 0;
   top: 0;
@@ -958,7 +961,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../assets/images/contact-bottom-right-v3.png);
+  background-image: url(/static/images/contact-bottom-right-v3.png);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1137,7 +1140,8 @@ responsive
   }
   .about-left-image img {
     margin-right: 0px;
-    margin-bottom: 45px;;
+    margin-bottom: 45px;
+
   }
 
   .about-us .left-image {
@@ -1250,6 +1254,6 @@ input[type=submit] {
 }
 
 .blog{
-  background-image: url(../assets/images/blog-left-dec.jpg);
+  background-image: url(/static/images/blog-left-dec.jpg);
   background-repeat: no-repeat;
 }
